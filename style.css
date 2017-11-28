@@ -1,0 +1,124 @@
+html,
+body {
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: white
+}
+p {
+    font-size:1.2em;
+}
+h1 {
+   font-size: 27px;
+   font-weight:600;
+}
+#PAGE {
+    margin: 3.5%;
+    margin-top:6%;
+    background-color: #282828;
+    background-attachment: fixed;
+    background-position:center center;
+    height: 80vh;
+}
+/*FONT*/
+@font-face {
+   font-family: 'Björk Handwriting';
+   src: url(bjork_hand.ttf);
+}
+/*SIDE NAVIGATION BAR*/
+#SIDENAVIGATIONBAR {
+    width:275px;
+    height: 100vh;
+    position:fixed;
+    float: left;
+}
+#PORTFOLIO {
+    background-color: #1e1e1e;
+    height:240px;
+    width: 240px;
+    color: white;
+    font-size:40px;
+    font-weight:800;
+    display: flex;
+    align-items: center;
+    position:center;
+    text-align: center;
+}
+#PORTFOLIOLINK {
+    background-color: transparent;
+    color: white;
+    font-weight:800;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:240px;
+    height: 100vh;
+    background-color: transparent;
+    overflow: auto;
+    position:fixed;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight:100;
+}
+li a.active {
+    background-color: transparent;
+    color: white;
+    font-weight:800;
+}
+li a:hover:not(.active) {
+    background-color: transparent;
+    color: white;
+    font-weight:800;
+}
+/*YXNGMEEZY NAV*/
+#FONT {
+    font-family: 'Björk Handwriting';
+    font-size:19px;
+    color:red;
+}
+/*MAIN FEED*/
+#PAGECONTENT {
+    float: right;
+    width: 78%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    position:center;
+    text-align: center;
+    flex-flow:column;
+}
+#LEFTSECTION {
+    width:50%;
+    float:left;
+    height:50%;
+}
+#RIGHTSECTION {
+    width:50%;
+    float:right;
+}
+.LINKS {
+    text-decoration: none;
+    color:#969696;
+}
+#LEFTSECTION {
+    width:50%;
+    float:left;
+}
+#RIGHTSECTION {
+    width:50%;
+    float:right;
+    font-family: 'Björk Handwriting';
+}
