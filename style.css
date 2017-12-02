@@ -85,7 +85,7 @@ li a:hover:not(.active) {
 }
 /*YXNGMEEZY NAV*/
 #FONT {
-    font-family: 'Björk Handwriting';
+    font-family: 'Björk Handwriting', 'Oswald';
     font-size:19px;
     color:red;
 }
@@ -120,5 +120,5 @@ li a:hover:not(.active) {
 #RIGHTSECTION {
     width:50%;
     float:right;
-    font-family: 'Björk Handwriting';
+    font-family: 'Björk Handwriting', 'Oswald';
 }
